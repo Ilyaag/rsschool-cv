@@ -3,6 +3,7 @@
 - Location: Vietnam, Ho Chi Minh
 - Phone: +79774538162
 - Email: ilya.ageev2024@gmail.com
+- Telegram: [@ilya_ageev](https://t.me/ilya_ageev)
 - GitHub: [Ilyaag](https://github.com/Ilyaag)
 
 **About Me**
