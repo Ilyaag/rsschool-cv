@@ -3,18 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>My CV</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- сброс стилей -->
+  <link rel="stylesheet" href="/css/style.css"> 
 </head>
+
 <body>
-  <header>
-    <h1>My CV</h1>
-  </header>
-  <main>
-    <!-- базовый шаблон -->
-  </main>
-  <footer>
-    <!-- базовый шаблон -->
-  </footer>
+    <div class="resume">
+      <div class="left-column">
+        <div class="photo-container">
+          <header>
+          <img class="photoResume" src="/img/photoCv.jpg" alt="photoResume">
+        </div>
+          <h2>Contacts</h2>
+          <nav>
+            <ul class="liColumn"> 
+              <li>Location: Vietnam, Ho Chi Minh</li>
+              <li><a href="ilya.ageev2024@gmail.com" target="_blank">Email</a></li>
+              <li><a href="https://t.me/ilya_ageev" target="_blank">Telegram</a></li>
+            </ul> 
+          </nav>
+          </header>
+        <h2>Skills</h2>
+        <ul class="liColumn"> 
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+
+        <h2>Education</h2>
+        <div class="education">
+          Rs School
+        </div>
+        <ul> 
+          <li>JS/FE Pre-School(in proccess...)</li>
+        </ul> 
+        
+      </div>
+      <div class="right-column">
+          <h1>Ilya Ageev</h1>
+          <h2>Front-end Developer</h2>
+      <hr>
+        <main> 
+          <h2>About me</h2>
+          <p class="aboutMe">
+            My name is Ilya and I am 28 years old. Currently, I am in Vietnam, teaching music and English at language centers. I aspire to become a proficient frontend developer and find a job in this field. My priorities are to acquire knowledge in front-end development.
+          </p>
+          <hr>
+          <h2>Code Example</h2>
+          <div class="codeExample">
+            <p>function multiply(a, b){ <br>return a * b;<br>}</p>
+          </div>
+          <h2>My Projects</h2> <!-- Их нет, наличие пункта для оценки резюме -->
+          <ul class="liColumn"> 
+            <li><a href="">Project 1</a></li> 
+            <li><a href="">Project 2</a></li>
+          </ul> 
+          <h2>Languages</h2>
+           <ul class="liColumn"> 
+             <li>English - A2</li>
+             <li>Russian - native speaker</li>
+           </ul>
+        </main>
+        <footer>
+          <nav>
+            <div class="container"> <!-- <div class="right-column"> -->
+               <a class = "link_1" href="https://github.com/Ilyaag" target="_blank"><img src="/img/github.svg" alt="github.com"></a>
+               <a class = "link_2" href="https://rs.school/js/" target="_blank"><img src="/img/rs_school_js.svg" alt="rs.school"></a>
+               <div class="text_footer">Created in 2023</div>
+            </div>
+          </nav>
+        </footer>
+      </div>
+    </div>
 </body>
 </html>
