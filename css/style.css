@@ -1,0 +1,112 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  max-width: 800px;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  background-color: rgb(216, 216, 216);
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: gray;
+  margin: 10px auto;
+  
+}
+
+h1, h2 {
+  margin-left: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.liColumn a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.resume {
+  display: flex;
+  background-color:rgb(228, 228, 228);
+}
+
+.left-column {
+  width: 38%;
+  background-color: grey;
+  overflow: hidden;
+}
+
+.right-column {
+  width: 62%;
+}
+
+.photoResume {
+  position: relative;
+  top: 10px;
+  width: 200px;
+  height: 250px;
+  border-radius: 10%; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.education {
+  margin-left: 20px;
+}
+
+.aboutMe {
+  margin: 20px;
+
+}
+
+.codeExample {
+  background-color:rgb(168, 168, 168);
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height:30%;
+  margin-left: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  
+}
+
+.container a {
+  flex-grow: 1;
+}
+
+.link_1 img {
+  margin-left: 10px;
+  width: 50px; 
+  height: 50px;
+}
+.link_2 img {
+  width: 150px; 
+  height: 50px;
+  margin-left: 13%;
+}
+
+.text_footer {
+  margin-top: 2%;
+  margin-left: 13%;
+}
