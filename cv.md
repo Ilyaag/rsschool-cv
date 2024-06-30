@@ -10,7 +10,7 @@
 I strive to maintain strong interpersonal skills, enjoy collaborative teamwork, and continuously seek opportunities for personal and professional growth
 ## Skills
 - HTML
-- JavaScript (Basic)
+- JavaScript
 - Git
 
 ## Code Example
