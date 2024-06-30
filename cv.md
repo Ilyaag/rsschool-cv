@@ -26,7 +26,7 @@ function isEven(num) {
 ## Experience
 
 ## Education
-**University:** Moscow State Institute of Culture
+Moscow State Institute of Culture
 
 **Courses:**
 - FreeCodeCamp
