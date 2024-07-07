@@ -29,8 +29,8 @@ function isEven(num) {
 Moscow State Institute of Culture
 
 **Courses:**
-- FreeCodeCamp
-- HTML Academy
+120 HOUR ADVANCED TEFL/TESOL COURSE
 
 ## English
-B1
+С1
+EF SET Certificate
